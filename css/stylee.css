@@ -1,0 +1,386 @@
+@font-face{
+  font-family:Jelly Donuts;
+  src:url('../fonts/JellyDonuts.otf');
+}
+html {
+    scroll-behavior: smooth;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    letter-spacing: 0px;
+}
+.container-fluid {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+.main-top {
+    background: url(../images/image1.jpg) no-repeat bottom;
+    height:100vh;
+    background-size: cover;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    color: white;
+    font-family: Jelly Donuts;
+
+}
+h2 {
+    font-family: sans-serif;
+    font-size: 22px;
+}
+#logo a h1 {
+    float: left;
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 0;
+}
+#logo p {
+    margin: 4px;
+    font-size: 10px;
+    color: white;
+    line-height: 8px;
+    /* padding: 0; */
+    letter-spacing: 1px;
+}
+.para{
+	padding-top: 40%;
+}
+nav {
+    margin: 0;
+    padding: 0;
+}
+.toggle-2, .toggle, [id^=drop] {
+    display: none;
+}
+nav ul {
+    float: none;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+}
+nav ul li {
+    margin: 0px;
+    display: inline-block;
+    float: none;
+}
+nav ul li a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 8px;
+    letter-spacing: 2px;
+    background: transparent;
+    padding: 4px;
+    display: inline-block;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    font-family: Jelly Donuts;
+}
+img {
+    width: 300px;
+    position: absolute;
+    transform: translateX(-50%) rotateY(150deg);
+    top: 40px;
+    left: 50%;
+   
+}
+.text-size {
+    position: relative;
+    text-align: center;
+}
+/*.text {
+    margin-top: 4% !important;
+    position: relative;
+    width: 510px;
+    margin-left: 30% !important;
+    font-family: sans-serif;
+    font-size: 18px;
+}*/
+.text{
+	font-family: sans-serif;
+    font-size: 15px;
+}
+.icons {
+    text-align: center;
+    margin-top: 4%;
+}
+.icons span {
+    cursor: pointer;
+    color: white;
+    font-size: 50px;
+}
+.footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: sans-serif;
+    bottom: 1%;
+}
+.navbar-nav .nav-link {
+	color: white!important;
+}
+.navbar{
+	width: 100%;
+	/*position: absolute;*/
+}
+.headder-top{
+	height: 80px;
+}
+/*index page*/
+input[type=text] {
+    padding: 4px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #dcc3c3;
+    border-radius: 50px;
+    background: transparent;
+    text-align: center;
+    transform: translateX(0%);
+    font-family:serif;
+    width: 75%;
+}
+.title{
+	padding: 23% 0px;
+}
+.btn {
+    width: 160px;
+    border-radius: 30px;
+    background: white;
+    height: 40px;
+    font-family: serif;
+}
+.butn {
+    margin-left: 1%;
+}
+/*media queries*/
+@media (min-width: 576px) {
+	#logo a h1{
+		font-size: 25px;
+	}
+	p{
+		font-size: 15px;
+	}
+	nav ul li a{
+		font-size: 10px;
+		padding: 6px;
+	}
+	img{
+		width: 480px;
+		position: absolute;
+	    transform: translateX(-50%) rotateY(150deg);
+	    top: 40px;
+	    left: 50%;
+	}
+	.title h1{
+		font-size: 24px;
+	}
+	.title {
+    padding: 36% 0px !important;
+	}
+	.btn{
+		width: 148px;
+	}	
+}
+@media (min-width: 768px) {
+	#logo a h1{
+		font-size: 30px;
+	}
+	p{
+		font-size: 18px;
+	}
+	nav ul li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	img{
+		width: 500px;
+		position: absolute;
+	    transform: translateX(-50%) rotateY(150deg);
+	    top: 40px;
+	    left: 50%;
+	}
+	.para{
+		padding-top: 32%;
+	}
+	.para h1{
+		font-size: 45px;
+	}
+	.text{
+		font-size: 16px;
+    	display: inline-block;
+    	width: 80%;
+    	margin: 15px 70px;
+	}
+	.title h1{
+		font-size: 28px;
+	}
+	.title {
+    padding: 37% 0px !important;
+	}
+	
+	.btn{
+	width: 140px;
+    font-size: 13px;
+    height: 35px;
+	}
+}
+@media (min-width: 992px) {
+	#logo a h1 {
+		font-size: 32px;
+	}
+	p{
+		font-size: 20px;
+	}
+	nav ul li a{
+		font-size: 14px;
+		padding: 12px;
+	}
+	img{
+		width: 550px;
+		position: absolute;
+	    transform: translateX(-50%) rotateY(150deg);
+	    top: 40px;
+	    left: 50%;
+	}
+	.para{
+		padding-top: 27%;
+	}
+	.para h1{
+		font-size: 50px;
+	}
+	.para h2{
+		font-size: 26px;
+	}
+	.text{
+		font-size: 18px;
+	    display: inline-block;
+	    width: 61%;
+	    margin: 15px 18%;
+	}
+	.main-top{
+		height:100vh;
+	}
+	.icons{
+		margin-top: 1%;
+	}
+	.title h1{
+		font-size: 35px;
+	}
+	.title {
+    padding: 26% 0px !important;
+	}
+	
+	.btn{
+	width: 160px;
+    font-size: 14px;
+    height: 36px;
+	}
+}
+@media (min-width: 1200px) {
+		#logo a h1 {
+		font-size: 36px;
+	}
+	p{
+		font-size: 22px;
+	}
+	nav ul li a{
+		font-size: 18px;
+		padding: 14px;
+	}
+	img{
+		width: 550px;
+		position: absolute;
+	    transform: translateX(-50%) rotateY(150deg);
+	    top: 40px;
+	    left: 50%;
+	}
+	.para{
+		padding-top: 21%;
+	}
+	.para h1{
+		font-size: 55px;
+	}
+	.para h2{
+		font-size: 26px;
+	}
+	.text{
+	    font-size: 18px;
+	    display: inline-block;
+	    width: 51%;
+	    margin: 15px 25%;
+	}
+	.main-top{
+		height:100vh;
+	}
+	.icons{
+		margin-top: 2% !important;
+	}
+	.title h1{
+		font-size: 38px;
+	}
+	.title {
+    padding: 22% 0px !important;
+	}
+	
+	.btn{
+	width: 170px;
+    font-size: 16px;
+    height: 38px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	img{
+		width: 300px;
+		position: absolute;
+	    transform: translateX(-50%) rotateY(150deg);
+	    top: 40px;
+	    left: 50%;
+	}
+	.para{
+		padding-top: 25%;
+	}
+	.para h1{
+		font-size: 25px;
+	}
+	.para h2{
+		font-size: 16px;
+	}
+	.text{
+	    font-size: 14px;
+	    display: inline-block;
+	    width: 90%;
+	    margin: 15px 5%;
+	}
+	.main-top{
+		height:100vh;
+	}
+	.icons{
+		margin-top: 2% !important;
+		font-size: 40px;
+	}
+	.title h1{
+		font-size: 16px;
+	}
+	.title {
+    padding: 30% 0px !important;
+	}
+	
+	.btn{
+	width: 90px;
+    font-size: 10px;
+    height: 30px;
+	}
+}
